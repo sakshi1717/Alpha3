@@ -1,0 +1,38 @@
+.para
+{
+ background-color:#4caf50;
+ 
+}
+.submit
+{
+ width:70%;
+background-color:#4caf50;
+ width: 100%;
+font:bold 12px arial;
+ height:60px;
+ margin:0;
+ padding:100px 200px;
+}
+.button:hover{
+background-color:blue;
+color:red;
+
+}
+.lll
+{
+ float:right;
+}
+.div1
+{
+ float:left;
+}
+div2
+{
+ float:right;
+}
+table{
+background-color:#e5e4e2;
+width:80%;
+border:4px solid #b0c4de;
+padding:10px;
+}

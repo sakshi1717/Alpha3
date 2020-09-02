@@ -1,0 +1,230 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<style>
+		.dropbtn {
+    background-color: #FFAB00;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #00CC00;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+	</style>
+<title>Form</title>
+<link href="formlay.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body,td,th {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-weight: bold;
+	font-size: 16px;
+	color: #2914AF;
+}
+body {
+	background-color: #000000;
+	text-align: center;
+	background-size: 130% 100%;
+	background-repeat: no-repeat;
+	background-image: url("bg1.jpg");
+	font-size: 16px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-weight: bolder;
+	font-style: italic;
+	color: #757575;
+	font-size: 24px;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-style: oblique;
+	font-size: 16px;
+	font-weight: bolder;
+}
+h1 {
+	font-size: 36px;
+	color: #FD0D11;
+}
+a:link {
+	color: #000000;
+}
+
+a {
+	font-size: 30px;
+	color: #0BEB1C;
+}
+</style>
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/arizonia:n4:default;alex-brush:n4:default;aclonica:n4:default;aladin:n4:default;playball:n4:default;italianno:n4:default;delius-swash-caps:n4:default;condiment:n4:default;clara:n4:default;brush-script-std:n4:default;berkshire-swash:n4:default;allura:n4:default;tangerine:n4:default.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+<h1 style="font-size: 150px; color: #000000; font-family: playball; font-style: normal; font-weight: 400;">Alpha 3</h1>
+<h1 style="font-size: 36px; font: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif'; align-content: center; color: hsla(0,86%,57%,1.00)"><em> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</em>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp; 
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;</h1>
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Room</button>
+  <div id="room" class="dropdown-content">
+    <a href="view_customer.php">View Customer Details</a>
+    <a href="search_custform.php">Search Customer</a>
+     <a href="book_form.php">Book Room</a>
+	  <a href="checkout_form.php">Check Out</a>
+	 </div></div>
+  
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  
+ 
+
+<div class="dropdown">
+<button onclick="location.href='Gallery.html';" class="dropbtn">Gallery</button>
+  <div id="gallery" class="dropdown-content">
+  </div>
+</div>
+  
+
+  
+ 
+  
+   
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  
+
+<div class="dropdown">
+<button onclick="myFunction1()" class="dropbtn">Food</button>
+  <div id="food" class="dropdown-content">
+    <a href="Food.html">Menu</a>
+    <a href="order_fooditem.php">Order Food</a>
+  </div>
+</div>
+  
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  
+<div class="dropdown">
+     <button onclick="myFunction2()" class="dropbtn">Staff</button>
+  <div id="staff" class="dropdown-content">
+    <a href="view_customer.php"></a>
+    <a href="view_staffdetails.php">Staff Details</a>
+     <a href="insert_staff.php">Insert New Staff</a>
+     <a href="delete_staff.php">Remove Existing Staff</a>
+      <a href="update_staff.php">Update</a>
+  </div>
+	  
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("room").classList.toggle("show");
+}
+
+function myFunction1() {
+    document.getElementById("food").classList.toggle("show");
+}
+
+function myFunction2() {
+    document.getElementById("staff").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+</body>
+</html>
